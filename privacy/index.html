@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - DoseBell</title>
+    <meta name="description" content="DoseBell privacy policy. Your medication data stays on your device and in your private iCloud. We collect nothing.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dosebell.app/privacy/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Privacy Policy - DoseBell">
+    <meta property="og:description" content="Your medication data stays on your device and in your private iCloud. We collect nothing.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dosebell.app/privacy/">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#F59E0B">
+
+    <style>
+        /* Rubik Variable Font */
+        @font-face {
+            font-family: 'Rubik';
+            src: url('/fonts/Rubik-VariableFont_wght.woff2') format('woff2');
+            font-weight: 300 900;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        :root {
+            --amber: #F59E0B;
+            --amber-light: #FEF3C7;
+            --amber-900: #412402;
+            --ink: #1C1917;
+            --paper: #FAF9F7;
+            --paper-dark: #F5F4F2;
+            --font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            --space-sm: 8px;
+            --space-md: 16px;
+            --space-lg: 24px;
+            --space-xl: 32px;
+            --space-2xl: 48px;
+            --space-3xl: 64px;
+            --radius-md: 12px;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--ink);
+            background-color: var(--paper);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--amber);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(250, 249, 247, 0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(28, 25, 23, 0.08);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 32px;
+            width: auto;
+        }
+
+        /* Content */
+        .content {
+            padding: calc(64px + var(--space-3xl)) 0 var(--space-3xl);
+        }
+
+        h1 {
+            font-size: clamp(32px, 5vw, 42px);
+            font-weight: 700;
+            margin-bottom: var(--space-lg);
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: var(--space-2xl);
+            margin-bottom: var(--space-md);
+        }
+
+        p {
+            margin-bottom: var(--space-md);
+        }
+
+        ul {
+            margin-bottom: var(--space-md);
+            padding-left: var(--space-lg);
+        }
+
+        li {
+            margin-bottom: var(--space-sm);
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--amber-light);
+            color: var(--amber-900);
+            font-size: 14px;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 100px;
+            margin-bottom: var(--space-xl);
+        }
+
+        .last-updated {
+            color: var(--ink);
+            opacity: 0.5;
+            font-size: 14px;
+            margin-bottom: var(--space-2xl);
+        }
+
+        /* Footer */
+        footer {
+            padding: var(--space-2xl) 0;
+            border-top: 1px solid rgba(28, 25, 23, 0.08);
+        }
+
+        .footer-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: var(--space-lg);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: var(--space-xl);
+        }
+
+        .footer-links a {
+            font-size: 14px;
+            color: var(--ink);
+            opacity: 0.6;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+            text-decoration: none;
+        }
+
+        .footer-copyright {
+            font-size: 14px;
+            color: var(--ink);
+            opacity: 0.5;
+        }
+
+        @media (max-width: 600px) {
+            .footer-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="/" class="logo">
+                <img src="/images/logo.svg" alt="DoseBell">
+            </a>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="container">
+            <h1>Privacy Policy</h1>
+            <span class="badge">Data Not Collected</span>
+            <p class="last-updated">Last updated: January 2025</p>
+
+            <p><strong>The short version:</strong> DoseBell does not collect, store, or transmit any of your personal data to us or any third party. Your medication information stays on your device and in your personal iCloud account. We have no servers, no analytics, and no way to see your data.</p>
+
+            <h2>What data does DoseBell store?</h2>
+            <p>DoseBell stores the following information to provide its functionality:</p>
+            <ul>
+                <li>Medication names, dosages, and schedules you create</li>
+                <li>Dose history (taken, skipped, or missed)</li>
+                <li>Refill tracking information</li>
+                <li>App preferences and settings</li>
+            </ul>
+
+            <h2>Where is this data stored?</h2>
+            <p>All data is stored in two places:</p>
+            <ul>
+                <li><strong>On your device:</strong> In the app's local database, protected by iOS security.</li>
+                <li><strong>In your iCloud:</strong> If you have iCloud enabled, your data syncs to your personal iCloud account using Apple's CloudKit private database. This data is end-to-end encrypted and only accessible by your Apple ID. We cannot access it.</li>
+            </ul>
+
+            <h2>What data do we collect?</h2>
+            <p><strong>None.</strong> We do not:</p>
+            <ul>
+                <li>Require you to create an account</li>
+                <li>Collect analytics or usage data</li>
+                <li>Use any third-party tracking SDKs</li>
+                <li>Store any data on our servers (we have no servers)</li>
+                <li>Sell or share any information with third parties</li>
+            </ul>
+
+            <h2>Caregiver Alerts (Pro feature)</h2>
+            <p>If you enable Caregiver Alerts, DoseBell publishes minimal "status beacon" records to a shared CloudKit zone that your designated caregiver can access. These records contain only:</p>
+            <ul>
+                <li>Whether a dose was taken, skipped, or missed</li>
+                <li>The timestamp</li>
+                <li>A medication identifier (not the full name, unless you choose to share it)</li>
+            </ul>
+            <p>You control exactly what is shared, and you can revoke access at any time. This data is transmitted directly between your device and your caregiver's device via CloudKit, not through any server we control.</p>
+
+            <h2>Pharmacy Label Scanning</h2>
+            <p>If you use the label scanning feature to add medications, all text recognition happens entirely on your device using Apple's Vision framework. No images or text are transmitted anywhere.</p>
+
+            <h2>App Store Privacy Label</h2>
+            <p>Our App Store listing displays <strong>"Data Not Collected"</strong> because we genuinely collect no data. This is verified by Apple during the app review process.</p>
+
+            <h2>Third-Party Services</h2>
+            <p>DoseBell uses the following Apple services:</p>
+            <ul>
+                <li><strong>CloudKit:</strong> For optional iCloud sync (your private database)</li>
+                <li><strong>StoreKit:</strong> For in-app purchases (handled entirely by Apple)</li>
+            </ul>
+            <p>We do not integrate any third-party analytics, advertising, or tracking services.</p>
+
+            <h2>Data Deletion</h2>
+            <p>You can delete all your data at any time by:</p>
+            <ul>
+                <li>Deleting the app from your device</li>
+                <li>Going to Settings → Apple ID → iCloud → Manage Storage → DoseBell and deleting the data</li>
+            </ul>
+
+            <h2>Changes to This Policy</h2>
+            <p>If we ever change this privacy policy, we will update this page and the "last updated" date. Given our fundamental commitment to privacy, we do not anticipate material changes.</p>
+
+            <h2>Contact</h2>
+            <p>If you have questions about this privacy policy, please contact us at <a href="mailto:support@dosebell.app">support@dosebell.app</a>.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="/privacy/">Privacy</a>
+                <a href="/terms/">Terms</a>
+                <a href="/support/">Support</a>
+            </div>
+            <div class="footer-copyright">
+                © 2025 DoseBell. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
