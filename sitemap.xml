@@ -2,26 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://dosebell.app/</loc>
-        <lastmod>2026-06-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+        <lastmod>2026-09-30</lastmod>
     </url>
     <url>
         <loc>https://dosebell.app/privacy/</loc>
-        <lastmod>2026-06-10</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
+        <lastmod>2026-09-30</lastmod>
     </url>
     <url>
         <loc>https://dosebell.app/support/</loc>
-        <lastmod>2026-06-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <lastmod>2026-09-30</lastmod>
     </url>
     <url>
         <loc>https://dosebell.app/terms/</loc>
-        <lastmod>2026-06-10</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
+        <lastmod>2026-09-30</lastmod>
     </url>
 </urlset>
