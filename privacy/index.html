@@ -225,9 +225,9 @@
         <div class="container">
             <h1>Privacy Policy</h1>
             <span class="badge">Data Not Collected</span>
-            <p class="last-updated">Last updated: 10 June 2026</p>
+            <p class="last-updated">Last updated: 30 September 2026</p>
 
-            <p><strong>The short version:</strong> DoseBell does not collect, store, or transmit any of your personal data to us or any third party. Your medication information stays on your device and in your personal iCloud account. We have no servers, no analytics, and no way to see your data.</p>
+            <p><strong>The short version:</strong> DoseBell does not send medication records to a server operated by us or to analytics or advertising services. Your medication information stays on your device and in your personal iCloud account. We have no servers, no analytics, and no way to see your data.</p>
 
             <h2>What data does DoseBell store?</h2>
             <p>DoseBell stores the following information to provide its functionality:</p>
@@ -242,7 +242,7 @@
             <p>All data is stored in two places:</p>
             <ul>
                 <li><strong>On your device:</strong> In the app's local database, protected by iOS security.</li>
-                <li><strong>In your iCloud:</strong> If you have iCloud enabled, your data syncs to your personal iCloud account using Apple's CloudKit private database. This data is end-to-end encrypted and only accessible by your Apple ID. We cannot access it.</li>
+                <li><strong>In your iCloud:</strong> If you have iCloud enabled, your data syncs to your personal iCloud account using Apple's CloudKit private database. Medication fields use CloudKit field-level encryption. iCloud end-to-end protection depends on your Apple settings, including Advanced Data Protection. DoseBell does not operate a medication-data server.</li>
             </ul>
 
             <h2>What data do we collect?</h2>
@@ -260,15 +260,16 @@
             <ul>
                 <li>Whether a dose was taken, skipped, or missed</li>
                 <li>The timestamp</li>
-                <li>A medication identifier (not the full name, unless you choose to share it)</li>
+                <li>Dose identifiers and times, profile display name, and medication names only if you opt in</li>
+                <li>Today’s progress, weekly adherence, and your selected alert rule</li>
             </ul>
-            <p>You control exactly what is shared, and you can revoke access at any time. This data is transmitted directly between your device and your caregiver's device via CloudKit, not through any server we control.</p>
+            <p>You control exactly what is shared, and you can revoke access at any time. These updates are stored in a separate shared CloudKit zone hosted by Apple. They are not stored on a server operated by DoseBell. Your full medication database is never shared.</p>
 
             <h2>Pharmacy Label Scanning</h2>
             <p>If you use the label scanning feature to add medications, all text recognition happens entirely on your device using Apple's Vision framework. No images or text are transmitted anywhere.</p>
 
             <h2>App Store Privacy Label</h2>
-            <p>Our App Store listing displays <strong>"Data Not Collected"</strong> because we genuinely collect no data. This is verified by Apple during the app review process.</p>
+            <p>DoseBell has no analytics or advertising SDKs. Medication records are stored on your devices and, when available, in your iCloud. Information you voluntarily email to support is received by our support mailbox and used to respond to your request.</p>
 
             <h2>Third-Party Services</h2>
             <p>DoseBell uses the following Apple services:</p>
